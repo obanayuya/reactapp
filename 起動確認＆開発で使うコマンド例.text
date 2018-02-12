@@ -1,0 +1,29 @@
+
+・webpackインストール　下記コマンドラインをプロジェクトの最上階層で実行↓
+　npm i -D webpack
+
+・マテリアルUI
+　npm -install material-ui
+
+
+・リアクトのサーバーを起動　　※下のほうに起動法が書いてあります。
+　
+上記二つを行った後に"localhost:8080/index"をブラウザのurlに入力してEnterを押せば
+"you are genious!!"の文字が表示されるはずです。されなかったら言ってください。
+
+
+↓以下、使うことが予想されるコマンド
+
+◎bundle.jsの更新
+	下記コマンドラインをコマンドプロンプトで実行↓
+	npm run builds
+
+◎bundle.jsの自動更新
+	下記コマンドラインを実行↓
+	npm run watch
+
+◎reactサーバーの起動方法
+	エクリプスで　/src/main/java/src/main/java/App.javaを右クリック
+　　　　実行(run)　→　java アプリケーションをクリック
+	トムキャットがインストールされていれば正常に動き出します
+
